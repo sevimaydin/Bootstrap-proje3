@@ -8,4 +8,4 @@ HTML, CSS Boostrap CSS
 
 <h2> Ekran Görüntüsü <h2>
 
-![](proje3.gif)
+![](proje-3.gif)
