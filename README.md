@@ -1,11 +1,15 @@
-<h1> Boostrap -Proje 3<h2>
+# Bootstrap Proje
 
-<p> Boostrap kullanarak tasarlanmış basit web sitesi<p>
+HML5 ,CSS3 Bootstrap kütüphanesi kullanılarak hazırlanmış bir şirket tanıtım sayfası.
 
-<h2> Kullanılan teknolojiler<p>
+## Proje 
 
-HTML, CSS Boostrap CSS
+Projeyi aktif olarak görmek için :[link ](https://sevimaydin.github.io/Bootstrap-proje3/)
 
-<h2> Ekran Görüntüsü <h2>
 
-![](proje-3.gif)
+### Kullanılan teknolojiler
+
+HTML CSS Bootstrap
+
+### Ön izleme
+![](  )
