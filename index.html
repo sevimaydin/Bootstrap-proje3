@@ -9,39 +9,42 @@
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-DiFhF/d1V+gHzX9BOyYi2QqW3uGXkFSwJVfLr7jRmMk+5ti7+aL9MkI7tjQqdhgJ" crossorigin="anonymous">
 
 </head>
 
 <body>
   <!--menü kısmı başlangıç-->
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-pastel-mor fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">S-GT| Tasarımın Adresi</a>
+      <a class="navbar-brand" href="#">S-UIX| Dijital dünyada iz bırakın, tasarımı biz yapalım.</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse flex-grow-0 justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="#carouselExampleIndicators">Anasayfa <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#hakkimizda">Hakkımızda</a>
+            <a class="nav-link" href="#hakkimizda" >Hakkımızda</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#ekibimiz">Ekibimiz</a>
           </li>
-          <a class="nav-link" href="#galeri">Galeri</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#galeri">Galeri</a>
           </li>
-
-          <a class="nav-link" href="#iletisim">İletişim</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#iletisim">İletişim</a>
           </li>
         </ul>
       </div>
     </div>
-  </nav>
+</nav>
+
 
   <!--menü bitiş-->
 
@@ -57,13 +60,13 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="image/res.jpg" class="d-block w-100 resimSlider" alt="...">
+        <img src="image/re1.jpg" class="d-block w-100 resimSlider img-fluid" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="image/r1.jpg" class="d-block w-100 resimSlider" alt="...">
+        <img src="image/res.jpg" class="d-block w-100 resimSlider img-fluid" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="image/r3.jpg" class="d-block w-100 resimSlider" alt="...">
+        <img src="image/re2.jpg" class="d-block w-100 resimSlider img-fluid" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -77,6 +80,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  
   <!--sleder bitiş-->
 
   <!--hakkımızda başlangıç-->
@@ -112,6 +116,7 @@
       <div class="card-deck">
 
         <div class="row row-cols-1 row-cols-md-4 g-6  ">
+
           <div class="card shadow ekipCard">
             <img src=" image/res1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -130,14 +135,14 @@
             <img src="image/res3.jpg" class=" card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">Sevda Kara</h5>
-              <p class="card-text">Grafik Tasarım</p>
+              <p class="card-text">UI/UX Tasarım</p>
             </div>
           </div>
           <div class="card shadow ekipCard">
             <img src="image/res4.jpg" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">Mehmet Aslan</h5>
-              <p class="card-text">alkla İlişkiler</p>
+              <p class="card-text">QA Uzmanı</p>
             </div>
           </div>
         </div>
@@ -168,7 +173,7 @@
             <img src="image/res8.jpg" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">Fatma Al</h5>
-              <p class="card-text">Grafik Tasarım</p>
+              <p class="card-text">Front-end Developer</p>
             </div>
           </div>
         </div>
@@ -255,14 +260,15 @@
   <section class="p-5 text-center galeri" id="iletisim">
     <div class="container">
       <h2 class="mb-5 font-weight-bold">İletişim</h2>
-      <hr class="ayrac"><i class="fas fa-leaf igri"></i>
-      <form action="" class="col-md-10 text-left m-auto">
+      <hr class="ayrac">
+      <i class="fas fa-leaf igri"></i>
+      <form action="" class="col-md-8 col-lg-6 m-auto">
         <div class="form-group row">
-          <label for="" class="col-md-4 align-self-center">Ad: </label>
+          <label for="" class="col-md-4 align-self-center">Ad:</label>
           <input type="text" class="form-control col-md-8">
         </div>
         <div class="form-group row">
-          <label for="" class="col-md-4 align-self-center">Soyad: </label>
+          <label for="" class="col-md-4 align-self-center">Soyad:</label>
           <input type="text" class="form-control col-md-8">
         </div>
         <div class="form-group row">
@@ -278,7 +284,8 @@
         </div>
       </form>
     </div>
-  </section>      
+  </section>
+      
 <!--iletişim bitiş-->
 
       <!-- Footer Başlangıç -->
@@ -289,7 +296,14 @@
           <span> Tüm Hakları Saklıdır &copy; | 2023</span><br>
           <span>Designed by <b>sa-grafik tasarım</b></span>
         </p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        
       </div>
+      
       <!-- Footer Bitiş -->
 
 
@@ -297,6 +311,7 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
       </script>
       <script src="https://kit.fontawesome.com/cebfafbe5b.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

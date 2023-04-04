@@ -5,7 +5,14 @@
 body{
     padding-top: 50px;
     font-family: 'Raleway', sans-serif;
+    font-size: 20px;
 }
+.bg-pastel-mor {
+    background: linear-gradient(to right, #d4a4cf, #c6226d);
+}
+  
+  
+
 .hakkimizda{
     background-color: #f2f2f2;
 }
@@ -34,6 +41,8 @@ body{
 }
 
 
+
+
 .ekipCard>img:hover{
     opacity: 0.8;
  
@@ -48,3 +57,14 @@ body{
 .footer{
     margin-top: 30px;
 }
+.social-icons{
+    padding: 20px;
+}
+.social-icons a {
+    margin-right: 10px;
+    font-size: 40px;
+    padding: 10px;
+
+  }
+  
+  
