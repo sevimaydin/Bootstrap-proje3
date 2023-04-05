@@ -11,5 +11,3 @@ Projeyi aktif olarak görmek için :[link ](https://sevimaydin.github.io/Bootstr
 
 HTML CSS Bootstrap
 
-### Ön izleme
-![](  )
